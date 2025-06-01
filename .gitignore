@@ -1,39 +1,62 @@
-# Byte-compiled / optimized / DLL files
+# -------------------------
+# 🔧 Python
+# -------------------------
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environments
-venv/
+# -------------------------
+# 🐍 Virtual Environments
+# -------------------------
 .venv/
+venv/
 
-# Jupyter Notebook checkpoints
+# -------------------------
+# 📓 Jupyter
+# -------------------------
 .ipynb_checkpoints/
 
-# PyTorch / TensorFlow / model weights
+# -------------------------
+# 🤖 ML Model Weights
+# -------------------------
 *.pt
 *.pth
 *.ckpt
 *.h5
+*.safetensors
+training_args.bin
 
-# Logs and debugging
+# -------------------------
+# 🐞 Logs & Debug
+# -------------------------
 *.log
 
-# VS Code
+# -------------------------
+# 🧰 VS Code
+# -------------------------
 .vscode/
 
-# macOS / Windows / Linux system files
+# -------------------------
+# 🧼 OS Files
+# -------------------------
 .DS_Store
 Thumbs.db
 
-# Output folders
+# -------------------------
+# 📤 Outputs
+# -------------------------
 logs/
 results/
 checkpoints/
+gecko_classifier_model/
 
-# Hugging Face cache
+# -------------------------
+# 🤗 Hugging Face Cache
+# -------------------------
+.cache/
 ~/.cache/huggingface/
-cache/
 
-# Datasets (if locally extracted)
+# -------------------------
+# 📂 Local Datasets (exclude if loading from HF)
+# -------------------------
 dataset/
