@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyTorch / TensorFlow / model weights
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Logs and debugging
+*.log
+
+# VS Code
+.vscode/
+
+# macOS / Windows / Linux system files
+.DS_Store
+Thumbs.db
+
+# Output folders
+logs/
+results/
+checkpoints/
+
+# Hugging Face cache
+~/.cache/huggingface/
+cache/
+
+# Datasets (if locally extracted)
+dataset/
